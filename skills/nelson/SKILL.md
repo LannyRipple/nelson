@@ -34,6 +34,7 @@ You MUST read `references/admiralty-templates/sailing-orders.md` and use the sai
     - Assign each captain a ship name from `references/crew-roles.md` matching task weight (frigate for general, destroyer for high-risk, patrol vessel for small, flagship for critical-path, submarine for research).
     - Captain decides crew composition per ship using the crew-or-direct decision tree in `references/crew-roles.md`.
     - Captains may also deploy Royal Marines during execution for short-lived sorties — see `references/royal-marines.md` and use `references/admiralty-templates/marine-deployment-brief.md` for the deployment brief.
+    - If the sailing orders express cost-savings priority, load `references/model-selection.md` before assigning models to the squadron. Apply weight-based model selection to all `Agent` tool calls and include haiku briefing enhancements for agents assigned to haiku.
 
 You MUST read `references/squadron-composition.md` for selection rules.
 You MUST read `references/crew-roles.md` for ship naming and crew composition.
